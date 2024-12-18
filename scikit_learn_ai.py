@@ -60,3 +60,19 @@ print(f"Acurácia do modelo Random Forest: {accuracy_arvore:.2f}%")
 # Calcula e exibe a acurácia do modelo KNN em porcentagem
 accuracy_knn = accuracy_score(y_teste, previsao_knn) * 100
 print(f"Acurácia do modelo KNN: {accuracy_knn:.2f}%")
+
+# Carrega o arquivo CSV contendo dados de novos clientes
+tabela_novos_clientes = pd.read_csv("novos_clientes.csv")
+# Exibe os dados dos novos clientes
+print(tabela_novos_clientes)
+
+# Codifica as variáveis categóricas dos novos clientes usando o mesmo LabelEncoder
+tabela_novos_clientes["profissao"] = codificador.fit_transform(tabela_novos_clientes["profissao"])
+tabela_novos_clientes["mix_credito"] = codificador.fit_transform(tabela_novos_clientes["mix_credito"])
+tabela_novos_clientes["comportamento_pagamento"] = codificador.fit_transform(tabela_novos_clientes["comportamento_pagamento"])
+
+# Realiza previsões para os novos clientes usando o modelo Random Forest
+previsoes = modelo_arvoredecisao.predict(tabela_novos_clientes)
+
+# Exibe as previsões para os novos clientes
+print(previsoes)
