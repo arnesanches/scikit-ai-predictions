@@ -25,6 +25,22 @@ x = tabela.drop(columns=["score_credito", "id_cliente"])
 # Define a variável dependente (y), que é o valor a ser previsto
 y = tabela["score_credito"]
 
+# Importa a função para dividir os dados em conjuntos de treino e teste
+from sklearn.model_selection import train_test_split
+
+# Divide os dados em conjuntos de treino (70%) e teste (30%)
+x_treino, x_teste, y_treino, y_teste = train_test_split(x, y, test_size=0.3)
+
 # Importa os modelos de aprendizado de máquina RandomForest e KNN
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.neighbors import KNeighborsClassifier
+
+# Inicializa o modelo Random Forest
+modelo_arvoredecisao = RandomForestClassifier()
+# Inicializa o modelo K-Nearest Neighbors
+modelo_knn = KNeighborsClassifier()
+
+# Treina o modelo Random Forest com os dados de treino
+modelo_arvoredecisao.fit(x_treino, y_treino)
+# Treina o modelo KNN com os dados de treino
+modelo_knn.fit(x_treino, y_treino)
