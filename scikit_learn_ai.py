@@ -5,3 +5,17 @@ import pandas as pd
 tabela = pd.read_csv("clientes.csv")
 # Exibe informações sobre a estrutura da tabela, como tipos de dados e valores nulos
 print(tabela.info())
+
+# Importa o LabelEncoder da biblioteca scikit-learn para codificação de variáveis categóricas
+from sklearn.preprocessing import LabelEncoder
+
+# Inicializa o codificador
+codificador = LabelEncoder()
+# Converte a coluna "profissao" de valores categóricos para valores numéricos
+tabela["profissao"] = codificador.fit_transform(tabela["profissao"])
+# Converte a coluna "mix_credito" de valores categóricos para valores numéricos
+tabela["mix_credito"] = codificador.fit_transform(tabela["mix_credito"])
+# Converte a coluna "comportamento_pagamento" de valores categóricos para valores numéricos
+tabela["comportamento_pagamento"] = codificador.fit_transform(tabela["comportamento_pagamento"])
+# Exibe as informações da tabela atualizada
+print(tabela.info())
