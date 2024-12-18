@@ -19,3 +19,8 @@ tabela["mix_credito"] = codificador.fit_transform(tabela["mix_credito"])
 tabela["comportamento_pagamento"] = codificador.fit_transform(tabela["comportamento_pagamento"])
 # Exibe as informações da tabela atualizada
 print(tabela.info())
+
+# Define as variáveis independentes (X) removendo colunas irrelevantes para o modelo
+x = tabela.drop(columns=["score_credito", "id_cliente"])
+# Define a variável dependente (y), que é o valor a ser previsto
+y = tabela["score_credito"]
