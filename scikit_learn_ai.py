@@ -44,3 +44,19 @@ modelo_knn = KNeighborsClassifier()
 modelo_arvoredecisao.fit(x_treino, y_treino)
 # Treina o modelo KNN com os dados de treino
 modelo_knn.fit(x_treino, y_treino)
+
+# Realiza previsões no conjunto de teste usando o modelo Random Forest
+previsao_arvoredecisao = modelo_arvoredecisao.predict(x_teste)
+# Realiza previsões no conjunto de teste usando o modelo KNN
+previsao_knn = modelo_knn.predict(x_teste)
+
+# Importa a métrica de acurácia para avaliar os modelos
+from sklearn.metrics import accuracy_score
+
+# Calcula e exibe a acurácia do modelo Random Forest em porcentagem
+accuracy_arvore = accuracy_score(y_teste, previsao_arvoredecisao) * 100
+print(f"Acurácia do modelo Random Forest: {accuracy_arvore:.2f}%")
+
+# Calcula e exibe a acurácia do modelo KNN em porcentagem
+accuracy_knn = accuracy_score(y_teste, previsao_knn) * 100
+print(f"Acurácia do modelo KNN: {accuracy_knn:.2f}%")
