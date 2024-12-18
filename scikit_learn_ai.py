@@ -24,3 +24,7 @@ print(tabela.info())
 x = tabela.drop(columns=["score_credito", "id_cliente"])
 # Define a variável dependente (y), que é o valor a ser previsto
 y = tabela["score_credito"]
+
+# Importa os modelos de aprendizado de máquina RandomForest e KNN
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.neighbors import KNeighborsClassifier
