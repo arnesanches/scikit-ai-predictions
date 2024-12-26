@@ -2,8 +2,6 @@
 
 # Scikit-learn AI
 
-## Description
-
 This is an artificial intelligence project that utilizes machine learning algorithms, such as Random Forest and K-Nearest Neighbors (KNN), to predict clients' credit scores based on provided data. After training and evaluation, the model makes predictions for new clients, assisting in risk analysis. The script will automatically perform the following steps:
 
 - Data processing and encoding.
@@ -41,6 +39,14 @@ Ensure that all files are in the correct location before running the script.
 
 4. Make sure the `clientes.csv` and `novos_clientes.csv` files are in the same directory as the script or notebook.
 
+## Running the Code
+
+Follow the steps below to run the script:
+
+1. Open a terminal or command prompt.
+2. Navigate to the folder where the scripts are located.
+3. To run the `.py` script, click the "Run" button. If you prefer the `.ipynb` format, run the notebook cells sequentially by clicking the "Run" button or pressing `Shift + Enter`.
+
 ## Notes
 
 - The `.ipynb` format is ideal for learning, as it combines code, results, and explanations in an interactive and educational way.
@@ -51,8 +57,6 @@ Ensure that all files are in the correct location before running the script.
 #### Português
 
 # Scikit-learn AI
-
-## Descrição
 
 Este é um projeto de inteligência artificial que utiliza algoritmos de aprendizado de máquina, como Random Forest e K-Nearest Neighbors (KNN), para prever o score de crédito de clientes com base em dados fornecidos. Após o treinamento e avaliação, o modelo realiza previsões para novos clientes, auxiliando na análise de risco. O script realizará as seguintes etapas automaticamente:
 
@@ -91,8 +95,15 @@ Certifique-se de que todos os arquivos estão no local correto antes de executar
 
 4. Garanta que os arquivos `clientes.csv` e `novos_clientes.csv` estejam no mesmo diretório do script ou notebook.
 
+## Executando o Código
+
+Siga os passos abaixo para executar o script:
+
+1. Abra um terminal ou prompt de comando.
+2. Navegue até a pasta onde os scripts estão localizados.
+3. Para executar o script `.py`, clique no botão "Run" (Executar). Se preferir o formato `.ipynb`, execute as células do notebook sequencialmente, clicando no botão "Run" ou pressionando `Shift + Enter`.
+
 ## Observações
 
 - O formato `.ipynb` é ideal para aprendizado, pois combina código, resultados e explicações de forma interativa e didática.
 - O formato `.py` é mais prático para execução automatizada e integração com outros sistemas.
-
