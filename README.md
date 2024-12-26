@@ -2,7 +2,19 @@
 
 # Scikit-learn AI
 
-This is an artificial intelligence project that uses machine learning algorithms, such as Random Forest and K-Nearest Neighbors (KNN), to predict customers' credit scores based on provided data. After training and evaluation, the model makes predictions for new customers, supporting risk analysis.
+This is an artificial intelligence project that utilizes machine learning algorithms, such as Random Forest and K-Nearest Neighbors (KNN), to predict clients' credit scores based on provided data. After training and evaluation, the model makes predictions for new clients, assisting in risk analysis. The script will automatically perform the following steps:
+
+- Data processing and encoding.
+- Training the Random Forest and KNN models.
+- Calculating the accuracy of each model.
+- Predicting credit scores for new clients.
+
+## Results
+
+- The models' accuracy will be displayed in the terminal as a percentage.
+- Predictions for new clients will also be displayed in the terminal.
+
+Ensure that all files are in the correct location before running the script.
 
 ## Included Formats
 
@@ -38,7 +50,19 @@ This is an artificial intelligence project that uses machine learning algorithms
 
 # Scikit-learn AI
 
-Este é um projeto de inteligência artificial que utiliza algoritmos de aprendizado de máquina, como Random Forest e K-Nearest Neighbors (KNN), para prever o score de crédito de clientes com base em dados fornecidos. Após o treinamento e avaliação, o modelo realiza previsões para novos clientes, auxiliando na análise de risco.
+Este é um projeto de inteligência artificial que utiliza algoritmos de aprendizado de máquina, como Random Forest e K-Nearest Neighbors (KNN), para prever o score de crédito de clientes com base em dados fornecidos. Após o treinamento e avaliação, o modelo realiza previsões para novos clientes, auxiliando na análise de risco. O script realizará as seguintes etapas automaticamente:
+
+- Processamento e codificação dos dados.
+- Treinamento dos modelos Random Forest e KNN.
+- Cálculo da acurácia de cada modelo.
+- Previsão dos scores de crédito para novos clientes.
+
+## Resultados
+
+- A acurácia dos modelos será exibida no terminal em formato percentual.
+- As previsões para os novos clientes também serão mostradas no terminal.
+
+Certifique-se de que todos os arquivos estão no local correto antes de executar o script.
 
 ## Formatos Incluídos
 
