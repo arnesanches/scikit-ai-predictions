@@ -1,73 +1,70 @@
-### English
+#### English
 
 # Scikit-Learn AI
 
-This project uses machine learning algorithms, such as Random Forest and K-Nearest Neighbors (KNN), to predict clients' credit scores based on provided data. After training and evaluation, the model predicts scores for new clients, aiding in risk assessment.
+This project uses machine learning algorithms, such as Random Forest and K-Nearest Neighbors (KNN), to predict customers' credit scores based on provided data. After training and evaluation, the model makes predictions for new customers, aiding in risk analysis.
 
-#### Included Formats:
+## Included Formats
 
-.ipynb: Ideal for interactive analysis and exploration using Jupyter Notebook.
+- **`.ipynb`**: Ideal for interactive analysis and project exploration in Jupyter Notebook.
+- **`.py`**: Script version for practical execution in any Python environment.
 
-.py: Script version for practical execution in any Python environment.
+## Required Data Sources
 
-#### Required Data Sources:
+- **`clientes.csv`**: Contains customer data used to train and evaluate the models.
+- **`novos_clientes.csv`**: Contains data of new customers for whom the model will perform predictions.
 
-clientes.csv: Contains client data used to train and evaluate the models. 
+## Execution Requirements
 
-novos_clientes.csv: Contains data for new clients to be scored by the model. 
+1. Ensure Python 3.7 or higher is installed.
+2. Install the necessary dependencies with:
 
-#### Requirements to Run:
+   `pip install pandas scikit-learn`
 
-Ensure Python 3.7 or later is installed.
+3. For the `.ipynb` format, install Jupyter Notebook:
 
-Install the necessary dependencies:
+   `pip install notebook`
 
-pip install pandas scikit-learn
+4. Make sure the `clientes.csv` and `novos_clientes.csv` files are in the same directory as the script or notebook.
 
-For .ipynb format, install Jupyter Notebook:
+## Notes
 
-pip install notebook
-
-Make sure clientes.csv and novos_clientes.csv are in the same directory as the script or notebook.
-
-#### Notes:
-
-.ipynb format combines code, results, and explanations, making it more educational for learning. The .py format is simpler for automated execution and system integration.
+- The `.ipynb` format combines code, results, and explanations, making it more educational for learning.  
+- The `.py` format is simpler for automated execution and integration with other systems.
 
 ---
 
-### Português
+#### Português
 
 # Scikit-Learn AI
 
 Este projeto utiliza algoritmos de aprendizado de máquina, como Random Forest e K-Nearest Neighbors (KNN), para prever o score de crédito de clientes com base em dados fornecidos. Após o treinamento e avaliação, o modelo realiza previsões para novos clientes, auxiliando na análise de risco.
 
-#### Formatos Incluídos:
+## Formatos Incluídos
 
-.ipynb: Ideal para análise interativa e exploração do projeto em Jupyter Notebook.
+- **`.ipynb`**: Ideal para análise interativa e exploração do projeto em Jupyter Notebook.
+- **`.py`**: Versão script para execução prática em qualquer ambiente Python.
 
-.py: Versão script para execução prática em qualquer ambiente Python.
+## Fontes de Dados Necessárias
 
-#### Fontes de Dados Necessárias:
+- **`clientes.csv`**: Contém os dados dos clientes usados para treinar e avaliar os modelos.
+- **`novos_clientes.csv`**: Contém os dados de novos clientes para os quais o modelo realizará previsões.
 
-clientes.csv: Contém os dados dos clientes usados para treinar e avaliar os modelos. 
+## Requisitos para Execução
 
-novos_clientes.csv: Contém os dados de novos clientes para os quais o modelo realizará previsões. 
+1. Certifique-se de que Python 3.7 ou superior está instalado.
+2. Instale as dependências necessárias com:
 
-#### Requisitos para Execução:
+   `pip install pandas scikit-learn`
 
-Certifique-se de que Python 3.7 ou superior está instalado.
+3. Para o formato `.ipynb`, instale o Jupyter Notebook:
 
-Instale as dependências necessárias com:
+   `pip install notebook`
 
-pip install pandas scikit-learn
+4. Garanta que os arquivos `clientes.csv` e `novos_clientes.csv` estejam no mesmo diretório do script ou notebook.
 
-Para o formato .ipynb, instale o Jupyter Notebook:
+## Observações
 
-pip install notebook
+- O formato `.ipynb` combina código, resultados e explicações, sendo mais didático para aprendizado.  
+- Já o `.py` é mais simples para execução automatizada e integração com outros sistemas.
 
-Garanta que os arquivos clientes.csv e novos_clientes.csv estejam no mesmo diretório do script ou notebook.
-
-#### Observações:
-
-O formato .ipynb combina código, resultados e explicações, sendo mais didático para aprendizado. Já o .py é mais simples para execução automatizada e integração com outros sistemas.
