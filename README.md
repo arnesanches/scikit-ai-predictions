@@ -2,7 +2,7 @@
 
 # Scikit-Learn AI
 
-This project uses machine learning algorithms, such as Random Forest and K-Nearest Neighbors (KNN), to predict customers' credit scores based on provided data. After training and evaluation, the model makes predictions for new customers, aiding in risk analysis.
+This is an artificial intelligence project that uses machine learning algorithms, such as Random Forest and K-Nearest Neighbors (KNN), to predict customers' credit scores based on provided data. After training and evaluation, the model makes predictions for new customers, supporting risk analysis.
 
 ## Included Formats
 
@@ -38,7 +38,7 @@ This project uses machine learning algorithms, such as Random Forest and K-Neare
 
 # Scikit-Learn AI
 
-Este projeto utiliza algoritmos de aprendizado de máquina, como Random Forest e K-Nearest Neighbors (KNN), para prever o score de crédito de clientes com base em dados fornecidos. Após o treinamento e avaliação, o modelo realiza previsões para novos clientes, auxiliando na análise de risco.
+Este é um projeto de inteligência artificial que utiliza algoritmos de aprendizado de máquina, como Random Forest e K-Nearest Neighbors (KNN), para prever o score de crédito de clientes com base em dados fornecidos. Após o treinamento e avaliação, o modelo realiza previsões para novos clientes, auxiliando na análise de risco.
 
 ## Formatos Incluídos
 
