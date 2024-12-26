@@ -1,6 +1,6 @@
 #### English
 
-# Scikit-Learn AI
+# Scikit-learn AI
 
 This is an artificial intelligence project that uses machine learning algorithms, such as Random Forest and K-Nearest Neighbors (KNN), to predict customers' credit scores based on provided data. After training and evaluation, the model makes predictions for new customers, supporting risk analysis.
 
@@ -29,14 +29,14 @@ This is an artificial intelligence project that uses machine learning algorithms
 
 ## Notes
 
-- The `.ipynb` format combines code, results, and explanations, making it more educational for learning.  
-- The `.py` format is simpler for automated execution and integration with other systems.
+- The `.ipynb` format is ideal for learning, as it combines code, results, and explanations in an interactive and educational way.
+- The `.py` format is more practical for automated execution and integration with other systems.  
 
 ---
 
 #### Português
 
-# Scikit-Learn AI
+# Scikit-learn AI
 
 Este é um projeto de inteligência artificial que utiliza algoritmos de aprendizado de máquina, como Random Forest e K-Nearest Neighbors (KNN), para prever o score de crédito de clientes com base em dados fornecidos. Após o treinamento e avaliação, o modelo realiza previsões para novos clientes, auxiliando na análise de risco.
 
@@ -65,6 +65,6 @@ Este é um projeto de inteligência artificial que utiliza algoritmos de aprendi
 
 ## Observações
 
-- O formato `.ipynb` combina código, resultados e explicações, sendo mais didático para aprendizado.  
-- Já o `.py` é mais simples para execução automatizada e integração com outros sistemas.
+- O formato `.ipynb` é ideal para aprendizado, pois combina código, resultados e explicações de forma interativa e didática.
+- O formato `.py` é mais prático para execução automatizada e integração com outros sistemas.
 
