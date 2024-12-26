@@ -14,8 +14,6 @@ This is an artificial intelligence project that utilizes machine learning algori
 - The models' accuracy will be displayed in the terminal as a percentage.
 - Predictions for new clients will also be displayed in the terminal.
 
-Ensure that all files are in the correct location before running the script.
-
 ## Included Formats
 
 - **`.ipynb`**: Ideal for interactive analysis and project exploration in Jupyter Notebook.
@@ -46,6 +44,7 @@ Follow the steps below to run the script:
 1. Open a terminal or command prompt.
 2. Navigate to the folder where the scripts are located.
 3. To run the script in the `.py` format, click the "Run" button. If you prefer the `.ipynb` format, run the notebook cells sequentially by clicking the "Run" button or pressing `Shift + Enter`.
+4. Ensure that all files are in the correct location before running the script.
 
 ## Notes
 
@@ -69,8 +68,6 @@ Este é um projeto de inteligência artificial que utiliza algoritmos de aprendi
 
 - A acurácia dos modelos será exibida no terminal em formato percentual.
 - As previsões para os novos clientes também serão mostradas no terminal.
-
-Certifique-se de que todos os arquivos estão no local correto antes de executar o script.
 
 ## Formatos Incluídos
 
@@ -102,6 +99,7 @@ Siga os passos abaixo para executar o script:
 1. Abra um terminal ou prompt de comando.
 2. Navegue até a pasta onde os scripts estão localizados.
 3. Para executar o script no formato `.py`, clique no botão "Run" (Executar). Se preferir o formato `.ipynb`, execute as células do notebook sequencialmente, clicando no botão "Run" ou pressionando `Shift + Enter`.
+4. Certifique-se de que todos os arquivos estão no local correto antes de executar o script.
 
 ## Observações
 
