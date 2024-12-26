@@ -45,7 +45,7 @@ Follow the steps below to run the script:
 
 1. Open a terminal or command prompt.
 2. Navigate to the folder where the scripts are located.
-3. To run the `.py` script, click the "Run" button. If you prefer the `.ipynb` format, run the notebook cells sequentially by clicking the "Run" button or pressing `Shift + Enter`.
+3. To run the script in the `.py` format, click the "Run" button. If you prefer the `.ipynb` format, run the notebook cells sequentially by clicking the "Run" button or pressing `Shift + Enter`.
 
 ## Notes
 
@@ -101,7 +101,7 @@ Siga os passos abaixo para executar o script:
 
 1. Abra um terminal ou prompt de comando.
 2. Navegue até a pasta onde os scripts estão localizados.
-3. Para executar o script `.py`, clique no botão "Run" (Executar). Se preferir o formato `.ipynb`, execute as células do notebook sequencialmente, clicando no botão "Run" ou pressionando `Shift + Enter`.
+3. Para executar o script no formato `.py`, clique no botão "Run" (Executar). Se preferir o formato `.ipynb`, execute as células do notebook sequencialmente, clicando no botão "Run" ou pressionando `Shift + Enter`.
 
 ## Observações
 
