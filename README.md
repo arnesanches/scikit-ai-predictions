@@ -26,7 +26,7 @@ This is an artificial intelligence project that utilizes machine learning algori
 
 ## Execution Requirements
 
-1. Ensure Python 3.7 or higher is installed.
+1. Ensure Python 3.7 or higher is installed. You can download the latest version at https://www.python.org/downloads/.
 2. Install the necessary dependencies with:
 
    `pip install pandas scikit-learn`
@@ -49,7 +49,15 @@ Follow the steps below to run the script:
 ## Notes
 
 - The `.ipynb` format is ideal for learning, as it combines code, results, and explanations in an interactive and educational way.
-- The `.py` format is more practical for automated execution and integration with other systems.  
+- The `.py` format is more practical for automated execution and integration with other systems.
+
+## Contributions
+
+Contributions are welcome! Feel free to open issues or pull requests in this repository.
+
+## License
+
+This project is licensed under the MIT License.
 
 ---
 
@@ -81,7 +89,7 @@ Este é um projeto de inteligência artificial que utiliza algoritmos de aprendi
 
 ## Requisitos para Execução
 
-1. Certifique-se de que Python 3.7 ou superior está instalado.
+1. Certifique-se de que Python 3.7 ou superior está instalado. Você pode baixar a versão mais recente em [https://www.python.org/downloads/](https://www.python.org/downloads/).
 2. Instale as dependências necessárias com:
 
    `pip install pandas scikit-learn`
@@ -105,3 +113,11 @@ Siga os passos abaixo para executar o script:
 
 - O formato `.ipynb` é ideal para aprendizado, pois combina código, resultados e explicações de forma interativa e didática.
 - O formato `.py` é mais prático para execução automatizada e integração com outros sistemas.
+
+## Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests neste repositório.
+
+## Licença
+
+Este projeto está licenciado sob a MIT License.
