@@ -6,7 +6,9 @@
 
 # Scikit-learn AI
 
-This is an artificial intelligence project that utilizes machine learning algorithms, such as Random Forest and K-Nearest Neighbors (KNN), to predict clients' credit scores based on provided data. After training and evaluation, the model makes predictions for new clients, assisting in risk analysis. The script will automatically perform the following steps:
+This is an artificial intelligence project that uses machine learning algorithms, such as Random Forest and K-Nearest Neighbors (KNN), to predict customers' credit scores based on provided data. The project evaluates and provides the accuracy of the trained models. After this evaluation, the model makes predictions for new customers, assisting in risk analysis by classifying them as Poor (low score, indicating high default risk), Good (high score, indicating low default risk), or Standard (intermediate score, indicating moderate risk). 
+
+The script will automatically perform the following steps:
 
 - Data processing and encoding.
 - Training the Random Forest and KNN models.
@@ -69,7 +71,9 @@ This project is licensed under the MIT License.
 
 # Scikit-learn AI
 
-Este é um projeto de inteligência artificial que utiliza algoritmos de aprendizado de máquina, como Random Forest e K-Nearest Neighbors (KNN), para prever o score de crédito de clientes com base em dados fornecidos. Após o treinamento e avaliação, o modelo realiza previsões para novos clientes, auxiliando na análise de risco. O script realizará as seguintes etapas automaticamente:
+Este é um projeto de inteligência artificial que utiliza algoritmos de aprendizado de máquina, como Random Forest e K-Nearest Neighbors (KNN), para prever o score de crédito de clientes com base em dados fornecidos. O projeto avalia e informa a acurácia dos modelos treinados. Após essa avaliação, o modelo realiza previsões para novos clientes, auxiliando na análise de risco ao classificá-los como Poor (baixo score, indicando alto risco de inadimplência), Good (alto score, indicando baixo risco de inadimplência) ou Standard (score intermediário, indicando risco moderado). 
+
+O script realizará as seguintes etapas automaticamente:
 
 - Processamento e codificação dos dados.
 - Treinamento dos modelos Random Forest e KNN.
