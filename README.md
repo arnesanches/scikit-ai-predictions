@@ -4,7 +4,7 @@
 
 #### English
 
-# Scikit-learn AI
+# Scikit AI Predictions
 
 This is an artificial intelligence project that uses machine learning algorithms, such as Random Forest and K-Nearest Neighbors (KNN), to predict customers' credit scores based on provided data. The project evaluates and provides the accuracy of the trained models. After this evaluation, the model makes predictions for new customers, assisting in risk analysis by classifying them as Poor (low score, indicating high default risk), Good (high score, indicating low default risk), or Standard (intermediate score, indicating moderate risk). 
 
@@ -65,11 +65,12 @@ Contributions are welcome! Feel free to open issues or pull requests in this rep
 
 This project is licensed under the MIT License.
 
+##
 ---
 
 #### Português
 
-# Scikit-learn AI
+# Scikit AI Predictions
 
 Este é um projeto de inteligência artificial que utiliza algoritmos de aprendizado de máquina, como Random Forest e K-Nearest Neighbors (KNN), para prever o score de crédito de clientes com base em dados fornecidos. O projeto avalia e informa a acurácia dos modelos treinados. Após essa avaliação, o modelo realiza previsões para novos clientes, auxiliando na análise de risco ao classificá-los como Poor (baixo score, indicando alto risco de inadimplência), Good (alto score, indicando baixo risco de inadimplência) ou Standard (score intermediário, indicando risco moderado). 
 
@@ -129,3 +130,6 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull r
 ## Licença
 
 Este projeto está licenciado sob a MIT License.
+
+##
+---
